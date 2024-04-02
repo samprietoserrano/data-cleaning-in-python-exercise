@@ -8,7 +8,7 @@ import pandera as pa
 import numpy as np
 
 schema = pa.DataFrameSchema({
-    'name': pa.Column(pa.String),
+    'name': paa.Column(pa.String),
     'lat': pa.Column(pa.Float),
     'lng': pa.Column(pa.Float),
 })
